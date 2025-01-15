@@ -13,7 +13,7 @@ class HashSetQuizTest {
     @DisplayName("set의 크기 확인")
     public void testSetSize() {
         //TODO
-        assertEquals(6,);
+        assertEquals(6, hashSet.size());
 
     }
 
@@ -21,7 +21,7 @@ class HashSetQuizTest {
     @DisplayName("set에 grape 추가 ")
     public void testPlusNewFruit() {
         //TODO
-        assertTrue();
+        assertTrue(hashSet.add("grape"));
     }
 
     @Test
@@ -35,6 +35,7 @@ class HashSetQuizTest {
     @DisplayName("set에 dulian 있으면 삭제")
     public void testDeleteDulian () {
         //TODO
+        hashSet.remove("dulian");
         assertFalse(hashSet.contains("dulian"));
     }
 
@@ -45,6 +46,9 @@ class HashSetQuizTest {
         // 출력결과 예시:
         // apple
         // banana
-zx        // ...
+        // ...
+        for (String element : hashSet) {
+            System.out.println(element);
+        }
     }
 }

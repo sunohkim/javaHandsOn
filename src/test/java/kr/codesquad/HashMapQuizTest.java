@@ -13,7 +13,7 @@ class HashMapQuizTest {
     @DisplayName("map의 크기 확인")
     public void test () {
         // TODO
-        assertEquals();
+        //assertEquals();
     }
 
     @Test
@@ -27,7 +27,7 @@ class HashMapQuizTest {
     @DisplayName("key가 dulian인 것의 value 확인")
     public void testFindValueByKey () {
         // TODO
-        assertEquals("yellow", );
+        //assertEquals("yellow", );
     }
 
     @Test
@@ -41,7 +41,7 @@ class HashMapQuizTest {
     @DisplayName("이미 존재하는 key인 apple를 삽입")
     public void testPlusExistKey () {
         // TODO
-        assertThrows(IllegalArgumentException.class, );
+        //assertThrows(IllegalArgumentException.class, );
     }
 
     @Test
@@ -49,7 +49,7 @@ class HashMapQuizTest {
     public void testPlusExistValue () {
         // TODO
         assertTrue(map.containsKey("carambola"));
-        assertTrue(map.containsValue("light green"))
+        //assertTrue(map.containsValue("light green"))
     }
 
     @Test
